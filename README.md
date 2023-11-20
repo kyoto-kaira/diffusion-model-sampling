@@ -1,0 +1,2 @@
+# diffusion-model-sampling
+Diffusion Modelのサンプリング手法を2次元座標データセットで検証するデモ。2023年度の11月祭にて展示

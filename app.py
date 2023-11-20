@@ -115,7 +115,7 @@ cond = st.selectbox(
     ('None', '0', '1'))
 guidance_scale = st.slider(
     '**:guide_dog: guidance scale**\n\nClassifier-free guidanceのパラメータです．1より大きい場合はClassifier-free guidanceが有効になります．値を大きくすると，より条件に合ったデータが生成されるようになりますが，生成データの多様性が小さくなります．', 
-    0.0, 100.0, step=0.1)
+    0.0, 10.0, step=0.1)
 
 N_data = 200
 t_step = T // N_sampling
